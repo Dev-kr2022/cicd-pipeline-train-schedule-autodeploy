@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: trainschedule
-        image: dk2022/webapp:$BUILD_NUMBER
+        image: dk2022/webapp:latest
         ports:
         - containerPort: 8080
         livenessProbe:
